@@ -1,5 +1,5 @@
 <div *ngIf="identityClaims" style="align-content:center">
-  <h2>Hola, {{ identityClaims['name'] }}!</h2>
+  <h2>Hey, {{ identityClaims['name'] }}!</h2>
 <br>
   <table class="table table-bordered">
     <tr>
@@ -10,9 +10,9 @@
         <td><b>{{ claim.key }}</b></td>
         <td>{{ claim.value }}</td>
       </tr>
-  </table> 
+  </table>
 </div>
 
 <div *ngIf="!identityClaims">
   <h1>Hola :)</h1>
-</div> 
+</div>

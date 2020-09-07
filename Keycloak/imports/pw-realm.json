@@ -493,14 +493,14 @@
       "clientId": "account-console",
       "name": "${client_account-console}",
       "rootUrl": "${authBaseUrl}",
-      "baseUrl": "/realms/AngularDemoRealm/account/",
+      "baseUrl": "/realms/PW/account/",
       "surrogateAuthRequired": false,
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
       "secret": "**********",
       "redirectUris": [
-        "/realms/AngularDemoRealm/account/*"
+        "/realms/PW/account/*"
       ],
       "webOrigins": [],
       "notBefore": 0,
