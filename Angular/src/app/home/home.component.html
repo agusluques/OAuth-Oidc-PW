@@ -4,7 +4,7 @@
   <table class="table table-bordered">
     <tr>
       <th>Claim</th>
-      <th>Valor</th>
+      <th>Value</th>
     </tr>
       <tr *ngFor="let claim of identityClaims | keyvalue">
         <td><b>{{ claim.key }}</b></td>
@@ -14,5 +14,5 @@
 </div>
 
 <div *ngIf="!identityClaims">
-  <h1>Hola :)</h1>
+  <h1>Hey :)</h1>
 </div>
